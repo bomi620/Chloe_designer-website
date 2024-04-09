@@ -1,0 +1,610 @@
+.frame {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+body {
+    
+        width: 100%;
+    height: 1080px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    background: url('public/img/bg1.svg')no-repeat center fixed;  background-size: cover;
+    background-color: #fff300;
+}
+
+  
+
+.frame .div {
+    width: 100%; /* (1442px / 1440px * 100) */
+    height: 100%; /* 이는 부모 요소에 의해 결정됩니다. */
+    position: relative;
+}
+
+/*.frame .desktop {
+    height: 30.44%;  (3077px / 10054px * 100) 
+    top: 25.2%;  (2544px / 10054px * 100) 
+    background-color: #fff300;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    left: 0;
+    }*/
+
+    .frame .keithhome{
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        border: 10px solid #000;
+    }
+
+.frame .overlap-group {
+    position: relative;
+    height: 3077 px;
+}
+
+.frame .keith-haring-pattern {
+    position: absolute;
+    width: 1439px;
+    height: 2073px;
+    top: 0;
+    left: 1px;
+    justify-content: center;
+}
+
+.frame .img {
+    position: absolute;
+    width: 1440px;
+    height: 1025px;
+    top: 2052px;
+    left: 0;
+}
+
+.frame .rectangle {
+    position: absolute;
+    width: 1301px;
+    height: 2226px;
+    top: 100vw;
+    left: 69px;
+    background-color: #fff300;
+    border: 10px solid;
+    border-color: #000000;
+}
+
+.frame .lorem-ipsum-is {
+    position: relative;
+    width: 491px;
+    top: 1959px;
+    left: 784px;
+    font-family: "Arvo", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper {
+    width: 537px;
+    top: 1118px;
+    left: 206px;
+    font-size: 30px;
+    position: absolute;
+    font-family: "Arvo", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .keith-haring {
+    position: absolute;
+    width: 433px;
+    height: 433px;
+    top: 590px;
+    left: 181px;
+    object-fit: cover;
+}
+
+.frame .boy-bio {
+    position: flex;
+    width: 30%;
+    height: 687px;
+    top: 1119px;
+    left: 893px;
+    object-fit: cover;
+}
+
+.frame .about-keith-haring {
+    position: absolute;
+    width: 491px;
+    top: 575px;
+    left: 807px;
+    font-family: "Arvo", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 119px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .overlap-wrapper {
+    height: 3378px;
+    top: 5621px;
+    background-color: #fff611;
+    position: absolute;
+    width: 1440px;
+    left: 0;
+}
+
+.frame .overlap {
+    position: relative;
+    height: 3378px;
+}
+
+.frame .keith-haring-pattern-2 {
+    position: absolute;
+    width: 1417px;
+    height: 2095px;
+    top: 0;
+    left: 23px;
+}
+
+.frame .keith-haring-pattern-3 {
+    position: absolute;
+    width: 1440px;
+    height: 1304px;
+    top: 2074px;
+    left: 0;
+}
+
+.frame .rectangle-2 {
+    position: absolute;
+    width: 1301px;
+    height: 2760px;
+    top: 493px;
+    left: 69px;
+    background-color: #ffffff;
+    border: 10px solid;
+    border-color: #000000;
+}
+
+.frame .keith-haring-2 {
+    position: absolute;
+    width: 358px;
+    height: 379px;
+    top: 549px;
+    left: 935px;
+    object-fit: cover;
+}
+
+.frame .rectangle-3 {
+    position: absolute;
+    width: 242px;
+    height: 242px;
+    top: 1336px;
+    left: 147px;
+    background-color: #d9d9d9;
+    border: 10px solid;
+    border-color: #000000;
+}
+
+.frame .rectangle-4 {
+    position: absolute;
+    width: 215px;
+    height: 251px;
+    top: 1336px;
+    left: 374px;
+    background-color: #d9d9d9;
+    border: 10px solid;
+    border-color: #000000;
+}
+
+.frame .rectangle-5 {
+    position: absolute;
+    width: 218px;
+    height: 251px;
+    top: 1336px;
+    left: 606px;
+    background-color: #d9d9d9;
+    border: 10px solid;
+    border-color: #000000;
+}
+
+.frame .rectangle-6 {
+    position: absolute;
+    width: 223px;
+    height: 251px;
+    top: 1336px;
+    left: 841px;
+    background-color: #d9d9d9;
+    border: 10px solid;
+    border-color: #000000;
+}
+
+.frame .rectangle-7 {
+    position: absolute;
+    width: 223px;
+    height: 251px;
+    top: 1336px;
+    left: 1081px;
+    background-color: #d9d9d9;
+    border: 10px solid;
+    border-color: #000000;
+}
+
+.frame .rectangle-8 {
+    position: absolute;
+    width: 430px;
+    height: 430px;
+    top: 2030px;
+    left: 228px;
+    background-color: #d9d9d9;
+    border: 10px solid;
+    border-color: #000000;
+}
+
+.frame .rectangle-9 {
+    position: absolute;
+    width: 430px;
+    height: 430px;
+    top: 2030px;
+    left: 720px;
+    background-color: #d9d9d9;
+    border: 10px solid;
+    border-color: #000000;
+}
+
+.frame .rectangle-10 {
+    position: absolute;
+    width: 430px;
+    height: 430px;
+    top: 2517px;
+    left: 228px;
+    background-color: #d9d9d9;
+    border: 10px solid;
+    border-color: #000000;
+}
+
+.frame .keith-haring-s {
+    position: absolute;
+    width: 767px;
+    top: 548px;
+    left: 195px;
+    font-family: "Arvo", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 119px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-2 {
+    position: absolute;
+    top: 1071px;
+    left: 133px;
+    font-family: "Arvo", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-3 {
+    position: absolute;
+    top: 1071px;
+    left: 363px;
+    font-family: "Arvo", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-4 {
+    position: absolute;
+    top: 1071px;
+    left: 605px;
+    font-family: "Arvo", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-5 {
+    position: absolute;
+    top: 1071px;
+    left: 812px;
+    font-family: "Arvo-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-6 {
+    position: absolute;
+    top: 1071px;
+    left: 1132px;
+    font-family: "Arvo", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .yellowbg {
+    height: 2544px;
+    top: 0;
+    background-color: #fff611;
+    overflow: hidden;
+    position: flex;
+    width: 100%;
+    left: 0;
+}
+
+.frame .overlap-2 {
+    position: absolute;
+    width: 1441px;
+    height: 2173px;
+    top: 371px;
+    left: 0;
+}
+
+.frame .rectangle-11 {
+    position: absolute;
+    width: 1441px;
+    height: 1508px;
+    top: 665px;
+    left: 0;
+    background-color: #ffffff;
+    border: 10px solid;
+    border-color: #000000;
+}
+.img1{
+    justify-content: center;
+
+
+}
+.frame .img-2 {
+    position: absolute;
+    width: 1440px;
+    height: 697px;
+    top: 0;
+    left: 0;
+}
+
+.frame .img-3 {
+    position: absolute;
+    width: 490px;
+    height: 466px;
+    top: 927px;
+    left: 758px;
+    background-blend-mode: multiply;
+    object-fit: cover;
+}
+
+.frame .keith-haring-3 {
+    width: 268px;
+    height: 284px;
+    top: 1610px;
+    left: 199px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.frame .line {
+    position: absolute;
+    width: 370px;
+    height: 190px;
+    top: 1428px;
+    left: 102px;
+    justify-content: center;
+}
+
+.frame .polygon {
+    position: absolute;
+    width: 98px;
+    height: 84px;
+    top: 921px;
+    left: 1230px;
+}
+
+.frame .p {
+    width: 751px;
+    top: 1520px;
+    left: 541px;
+    font-size: 39px;
+    position: absolute;
+    font-family: "Arvo", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .keith-haring-4 {
+    position: absolute;
+    width: 767px;
+    top: 822px;
+    left: 157px;
+    font-family: "Arvo", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 119px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .overlap-3 {
+    position: absolute;
+    width: 100%;
+    height: 259px;
+    top: 44px;
+    left: 323px;
+}
+
+.frame .title {
+    width: 70%;
+    height: auto;
+    position: flex;
+    justify-content: center;
+    background-blend-mode: darken;
+
+}
+
+.frame .text-wrapper-7 {
+    position: absolute;
+    top: 14.236vw;
+    left: 13.889vw;
+    font-family: "Mansalva", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 3.125rem;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-8 {
+    position: absolute;
+    top: 14.236vw;
+    left: 0;
+    font-family: "Mansalva", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-9 {
+    position: absolute;
+    top: 14.236vw;
+    left: 28.958vw;
+    font-family: "Mansalva", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-10 {
+    position: absolute;
+    top: 14.236vw;
+    left: 43.264vw;
+    font-family: "Mansalva", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .img-4 {
+    position: absolute;
+    width: 1748px;
+    height: 2339px;
+    top: -302px;
+    left: -28376px;
+    mix-blend-mode: multiply;
+    object-fit: cover;
+}
+
+.frame .div-2 {
+    position: absolute;
+    width: 1440px;
+    height: 410px;
+    top: 8999px;
+    left: 0;
+    background-color: #ffffff;
+}
+
+.frame .keith-haring-6 {
+    width: 231px;
+    height: 94px;
+    top: 158px;
+    left: 157px;
+    position: absolute;
+    background-blend-mode: darken;
+    object-fit: cover;
+}
+
+.frame .rectangle-12 {
+    position: absolute;
+    width: 147px;
+    height: 34px;
+    top: 287px;
+    left: 934px;
+    background-color: #d9d9d9;
+}
+
+.frame .rectangle-13 {
+    position: absolute;
+    width: 147px;
+    height: 34px;
+    top: 206px;
+    left: 934px;
+    background-color: #d9d9d9;
+}
+
+.frame .rectangle-14 {
+    position: absolute;
+    width: 147px;
+    height: 34px;
+    top: 125px;
+    left: 934px;
+    background-color: #d9d9d9;
+}
+
+.frame .rectangle-15 {
+    position: absolute;
+    width: 147px;
+    height: 34px;
+    top: 287px;
+    left: 720px;
+    background-color: #d9d9d9;
+}
+
+.frame .rectangle-16 {
+    position: absolute;
+    width: 147px;
+    height: 34px;
+    top: 206px;
+    left: 720px;
+    background-color: #d9d9d9;
+}
+
+.frame .rectangle-17 {
+    position: absolute;
+    width: 147px;
+    height: 34px;
+    top: 125px;
+    left: 720px;
+    background-color: #d9d9d9;
+}
+
+.frame .keith-haring-7 {
+    width: 267px;
+    height: 283px;
+    top: 64px;
+    left: 1173px;
+    position: absolute;
+    object-fit: cover;
+}
