@@ -1,26 +1,27 @@
+.frame {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative; 
+    min-height: 100%;
+    
+}
 
 
 html, body {
     margin: 0; 
     padding: 0;
     height: 100%; 
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
+        width: 100%;
+       
+        flex-direction: row;
+        justify-content: center;
     background: url('public/img/bg1.svg')no-repeat center fixed;  background-size: cover;
     background-color: #fff300;
     overflow-x: hidden; 
-}
-.frame {
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    position: relative;
-    min-height: 100%;
-
 }
 
 .frame .yellowbg {
@@ -28,19 +29,18 @@ html, body {
     top: 0;
     background-color: #fff611;
     overflow: hidden;
-    position: relative;
-    display: flex;
-    width: 100vw;
+    position: flex;
+    width: 100%;
     left: 0;
     border: 5px solid;
     border-color: #000000;
 }
 .frame .rectangle1 {
-    position: relative;
+    
+    position: absolute;
     width: 100%;
-    padding-top: 5vw;
-    padding-bottom: 5vw;
-    /* top: 100vw; */
+    height: 1500px;
+    top: 100vw;
     background-color: #ffffff;
     border: 10px solid;
     border-color: #000000;
@@ -236,11 +236,11 @@ html, body {
 
 
 .frame .text1 {
-
     width: 751px;
-    padding-top: 4vw;
-    padding-left: 25%;
+    top: 40%;
+    right: 5vw;
     font-size: 30px;
+    position: absolute;
     font-family: "Arvo", Helvetica;
     font-weight: 400;
     color: #000000;
@@ -257,10 +257,10 @@ html, body {
     }
 }
 .frame .keith-haring {
-    position: relative;
+    position: absolute;
     width: 767px;
-    padding-top: 5%;
-    padding-left: 5%;
+    top: 5%;
+    left: 5%;
     font-family: "Arvo", Helvetica;
     font-weight: 400;
     color: #000000;
