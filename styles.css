@@ -1,27 +1,25 @@
-.frame {
-    background-color: transparent;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    position: relative; 
-    min-height: 100%;
-    
-}
-
 
 html, body {
     margin: 0; 
     padding: 0;
     height: 100%; 
-        width: 100%;
-       
-        flex-direction: row;
-        justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
     background: url('public/img/bg1.svg')no-repeat center fixed;  background-size: cover;
     background-color: #fff300;
-    overflow-x: hidden; 
+    /*overflow-x: hidden; */
+    scroll-behavior: smooth;
+}
+.frame {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    min-height: 100%;
+
 }
 
 .frame .yellowbg {
@@ -29,47 +27,60 @@ html, body {
     top: 0;
     background-color: #fff611;
     overflow: hidden;
-    position: flex;
-    width: 100%;
+    position: relative;
+    display: flex;
+    width: 100vw;
     left: 0;
     border: 5px solid;
     border-color: #000000;
+    box-sizing: border-box;
+
+
+
 }
+
 .frame .rectangle1 {
-    
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 1500px;
-    top: 100vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    justify-content: center;
+    /* top: 100vw; */
     background-color: #ffffff;
     border: 10px solid;
     border-color: #000000;
     margin-bottom: 10%;
+    box-sizing: border-box;
     
 }
     
 
 .frame .rectangle2 {
-    position: absolute;
+    position: relative;
+    justify-content: center;
     width: 85%;
-    height: 2226px;
-    top: calc(100vw + 1500px + 10%);
+    height: auto;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    top: 20vh;
     background-color: #fff300;
     border: 10px solid;
     border-color: #000000;
-    
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .frame .rectangle3 {
-    
-    position: absolute;
+    position: relative;
     width: 85%;
     height: auto;
-  top: calc(100vw + 1500px + 350%);
+    padding-top: 5vw;
+  top: 20vh;
     background-color: #ffffff;
     border: 10px solid;
     border-color: #000000;
     margin-bottom: 10%;
+    margin: 0 auto;
     
 }
 
@@ -103,6 +114,7 @@ html, body {
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    z-index: 30;
     
 }
 @media screen and (max-width: 1100px) {
@@ -125,6 +137,7 @@ html, body {
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    z-index: 30;
 }
 
 @media screen and (max-width: 1100px) {
@@ -146,6 +159,7 @@ html, body {
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    z-index: 30;
 }
 @media screen and (max-width: 1100px) {
     .frame .Works {
@@ -165,6 +179,7 @@ html, body {
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    z-index: 30;
 }
 @media screen and (max-width: 1100px) {
     .frame .Contact {
@@ -189,13 +204,18 @@ html, body {
 
 .frame .keithhome{
     position: relative;
-    top:35%;
-    width: 100%;
+    top:18%;
+    width:100%;
     height: auto;
+    
+    object-fit: contain;
+    
     display: flex;
     justify-content: center;
-    border: 10px solid #000;
+    /*border: 10px solid #000;*/
 }
+
+
 
 .frame .pattern1 {
     position: absolute;
@@ -235,156 +255,151 @@ html, body {
     }
 
 
-.frame .text1 {
-    width: 751px;
-    top: 40%;
-    right: 5vw;
-    font-size: 30px;
-    position: absolute;
+    .rectangle1 .text1 {
+position: relative;
+    padding-top: 4vw;
+    padding-left: 35%;
+    font-size: 4vw;
     font-family: "Arvo", Helvetica;
     font-weight: 400;
     color: #000000;
     letter-spacing: 0;
     line-height: normal;
+    z-index: 30;
 }
-
-@media screen and (max-width: 700px) {
+/*@media screen and (max-width: 1200px) {
     .frame .text1 {
         top: 40%;
         width:60%;
-        padding-left: 100px;
-        font-size: 3vw; /* 화면 너비가 600px 이하인 경우의 폰트 사이즈 */
+        padding-right: 200px;
+        font-size: 3vw;
     }
-}
+} */
+
 .frame .keith-haring {
-    position: absolute;
-    width: 767px;
-    top: 5%;
-    left: 5%;
+    position: relative;
+    padding-top: 5%;
+    padding-left: 5%;
     font-family: "Arvo", Helvetica;
     font-weight: 400;
     color: #000000;
-    font-size: 150px;
+    font-size: 14vw;
     letter-spacing: 0;
     line-height: normal;
 }
 
 .frame .About2 {
-    position: absolute;
+    position: relative;
     width: auto; /* 너비를 자동으로 설정하여 내용에 맞게 조절됩니다. */
-    top: 3%;
-    right: 0; /* 상자의 오른쪽에 정렬됩니다. */
+    
+    left:2vw; /* 상자의 오른쪽에 정렬됩니다. */
     font-family: "Arvo", Helvetica;
     font-weight: 400;
     color: #000000;
-    font-size: 150px;
+    font-size: 13vw;
     letter-spacing: 0;
     line-height: normal;
     text-align: left; /* 텍스트를 오른쪽으로 정렬합니다. */
-    padding-right: 40px; /* 오른쪽 여백을 추가합니다. */
+    padding-right: 40vw; /* 오른쪽 여백을 추가합니다. */
     box-sizing: border-box; /* 패딩이 width에 포함되도록 box-sizing 속성을 설정합니다. */
 }
 
-@media screen and (max-width: 1550px) {
+/*@media screen and (max-width: 1550px) {
     .frame .About2 {
-        font-size: 90px; /* 화면 너비가 900px 이하인 경우의 폰트 사이즈 */
+        font-size: 90px;
     }
 }
 
 @media screen and (max-width: 1030px) {
     .frame .About2 {
-        font-size: 80px; /* 화면 너비가 600px 이하인 경우의 폰트 사이즈 */
+        font-size: 80px; 
     }
 }
 
 @media screen and (max-width: 700px) {
     .frame .About2 {
         padding-right: 40px;
-        font-size: 50px; /* 화면 너비가 600px 이하인 경우의 폰트 사이즈 */
+        font-size: 50px; 
     }
-}
+}*/
 
-.frame .keith3{
+.rectangle2 .keith3{
     position: relative;
     top:3%;
     width: 40%;
-    left: 5%;
-    height: auto;
-    display: flex;
     justify-content: center;
-    border: 10px solid #000;
+    height: auto;
+    
+    border:5px solid #000;
+    margin:20px;
 
 }
-
-
-
-.frame .text2 {
-    width: 60%;
-    top: 25%;
-    right: 5vw;
-    font-size: 30px;
-    position: absolute;
-    font-family: "Arvo", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.frame .text3 {
-    width: 60%;
-    top: 55%;
-    right: 5vw;
-    font-size: 30px;
-    position: absolute;
-    font-family: "Arvo", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-
 @media screen and (max-width: 1300px) {
     .frame .Keith3 {
         width:85%;
         position:flex;
         justify-content: center;
         top: 17%;
-        border: 10px solid #000;
+        border: 5px solid #000;
         
-    }
-    .frame .text2 {
-        margin-top: 70%;
-        width:85%;
-        font-size:130%;
-        padding-bottom: 10px;}
+    }}
 
-        .frame .text3{
-            padding-top: 10px;
-            top: 55%;
-            width:85%;
-            font-size: 130%;}
+    .rectangle2 .next {
+        
+    
+}
+.rectangle2 .text2 {
+    position: relative;
+    width: 65%;
+    top: -20vh;
+    left: 28vw;
+    padding-right: 5px;
+    font-size: 4vw;
+    font-family: "Arvo", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+    display: flex
+    
+    
+}
+
+.rectangle2 .text3 {
+    position: relative;
+    width: 40%;
+    top: 2vh;
+    left: 5vw;
+    font-size: 30px;
+    font-family: "Arvo", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+   
 }
 
 
 .frame .boy {
     position: relative;
-    top:10%;
+   
     width: 20%;
-    left: 5%;
+    left: 7%;
     height: auto;
     display: flex;
-    border: 10px solid #000;
+    border: 5px solid #000;
+   
  }
 
 
  .picture {
-
+    position: relative;
+    top:10vh;
     display: flex; /* Flexbox를 사용하여 요소를 가로로 정렬합니다. */
     flex-wrap: wrap; /* 필요한 경우 여러 줄로 자동으로 개행합니다. */
     justify-content: center; /* 요소들을 가로 방향으로 가운데 정렬합니다. */
-    padding-top: 400px;
+    padding-top: 0px;
+    padding-bottom: 30vw;
     
 }
 
@@ -397,39 +412,40 @@ html, body {
 
 }
 
-.frame .About3 {
+.rectangle3 .About3 {
     display: flex;
-    position: absolute;
+    position: relative;
     width: 100%;
-    top: 3%;
-    left: 100px;
+    top: 5vh;
+    left: 10vw;
     font-family: "Arvo", Helvetica;
     font-weight: 400;
     color: #000000;
-    font-size: 150px;
+    font-size: 14vw;
     letter-spacing: 0;
     line-height: normal;
     padding-right: 40px; /* 오른쪽 여백을 추가합니다. */
     box-sizing: border-box;
+    z-index: 30;
     
 }
-@media screen and (max-width: 1550px) {
+/*@media screen and (max-width: 1550px) {
     .frame .About3 {
-        font-size: 90px; /* 화면 너비가 900px 이하인 경우의 폰트 사이즈 */
+        font-size: 90px; 
     }
 }
 
 @media screen and (max-width: 1030px) {
     .frame .About3 {
-        font-size: 80px; /* 화면 너비가 600px 이하인 경우의 폰트 사이즈 */
+        font-size: 80px; 
     }
 }
 
 @media screen and (max-width: 700px) {
     .frame .About3 {
-        font-size: 50px; /* 화면 너비가 600px 이하인 경우의 폰트 사이즈 */
+        font-size: 50px; 
     }
-}
+}*/
 
 .frame .pattern2-1 {
     position: absolute;
@@ -460,8 +476,30 @@ html, body {
     */
 
 footer{
-    background-color:red;
+    position: relative;
+    background-color:white;
     width: 100vw;
     height: 200px;
     max-width: 100vw;
+    top:20vh;
+    
+}
+
+footer .footer1{
+position: relative;
+font-family: "Mansalva", Helvetica;
+font-weight: 400;
+color: #000000;
+padding-top: 9vh;
+font-size: 4vw;
+left: 40px;
+
+}
+
+footer .pattern1-2 {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    top:6vh;
+    left: 70%;
 }
